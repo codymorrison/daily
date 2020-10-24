@@ -1,5 +1,5 @@
 #sidebar {
-  width: 25vmax;
+  width: auto;
   height: calc(100% - 50px);
   padding: 25px 30px;
   background-color: #d91448;
@@ -58,4 +58,26 @@
   outline: none;
   cursor: pointer;
   font-size: 18px;
+}
+
+#sidebar.sidebar-animation-enter {
+  width: 100vw;
+}
+
+#sidebar.sidebar-animation-enter-active {
+  width: 25vw;
+  transition: width 1000ms;
+}
+
+#sidebar.sidebar-animation-enter-done {
+  width: 25vw;
+}
+
+#sidebar.sidebar-animation-exit {
+  width: 100vw;
+}
+
+#sidebar.sidebar-animation-exit-active {
+  width: 25vw;
+  transition: width 1000ms;
 }

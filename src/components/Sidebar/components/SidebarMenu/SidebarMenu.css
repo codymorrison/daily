@@ -1,0 +1,12 @@
+#sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-size: 26px;
+  color: #fff;
+}
+
+#sidebar-menu .menu-item {
+  padding: 15px 0;
+  font-weight: 300;
+}
