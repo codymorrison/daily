@@ -1,6 +1,6 @@
-import React from 'react';
 import { render } from '@testing-library/react';
-import App from './Sidebar';
+import React from 'react';
+
 import Sidebar from './Sidebar';
 
 test.skip('renders learn react link', () => {
